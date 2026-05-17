@@ -28,4 +28,4 @@ jobs:
         with:
             node_version: "20"
             app_port: "5173"
-            start_command: "npx vite --port 5173 --host"
+            start_command: "npm run dev"
