@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "totalCheckedPages": 1,
+    "totalIssues": 9,
+    "timestamp": "2026-05-17T17:28:55.391Z"
+  },
+  "issues": [
+    {
+      "id": "color-contrast",
+      "message": "issue on [/] - [WCAG 2.0 AA, Success Criterion 1.4.3 (serious severity)]:\nElements must meet minimum color contrast ratio thresholds.\n\nElement: <h3 class=\"text-2xl font-bold text-gray-400 md:text-3xl\">\n\nFix any of the following:\n• Element has insufficient color contrast of 2.53 (foreground color: #9ca3af, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1\n\nHelp: https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "id": "color-contrast",
+      "message": "issue on [/] - [WCAG 2.0 AA, Success Criterion 1.4.3 (serious severity)]:\nElements must meet minimum color contrast ratio thresholds.\n\nElement: <a href=\"https://github.com/LucasSilbernagel/good-accessibility-example\" target=\"_blank\" rel=\"noreferrer\" class=\"underline underline-offset-2 transition-all hover:underline-offset-4\" tabindex=\"-1\">Here's the GitHub repository for the fixed version</a>\n\nFix any of the following:\n• Element has insufficient color contrast of 2.53 (foreground color: #9ca3af, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1\n\nHelp: https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "id": "color-contrast",
+      "message": "issue on [/] - [WCAG 2.0 AA, Success Criterion 1.4.3 (serious severity)]:\nElements must meet minimum color contrast ratio thresholds.\n\nElement: <p class=\"mt-4 text-lg text-gray-400\">\n\nFix any of the following:\n• Element has insufficient color contrast of 2.53 (foreground color: #9ca3af, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1\n\nHelp: https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI"
+    },
+    {
+      "id": "document-title",
+      "message": "issue on [/] - [WCAG 2.0 A, Success Criterion 2.4.2 (serious severity)]:\nDocuments must have <title> element to aid in navigation.\n\nElement: <html lang=\"invalid\">\n\nFix any of the following:\n• Document does not have a non-empty <title> element\n\nHelp: https://dequeuniversity.com/rules/axe/4.11/document-title?application=axeAPI"
+    },
+    {
+      "id": "html-lang-valid",
+      "message": "issue on [/] - [WCAG 2.0 A, Success Criterion 3.1.1 (serious severity)]:\n<html> element must have a valid value for the lang attribute.\n\nElement: <html lang=\"invalid\">\n\nFix all of the following:\n• Value of lang attribute not included in the list of valid languages\n\nHelp: https://dequeuniversity.com/rules/axe/4.11/html-lang-valid?application=axeAPI"
+    },
+    {
+      "id": "image-alt",
+      "message": "issue on [/] - [WCAG 2.0 A, Success Criterion 1.1.1 (critical severity)]:\nImages must have alternative text.\n\nElement: <img class=\"absolute left-0 top-0 z-10 h-full w-full object-cover object-center sm:static\" src=\"https://picsum.photos/id/58/1280/350\" loading=\"lazy\">\n\nFix any of the following:\n• Element does not have an alt attribute\n• aria-label attribute does not exist or is empty\n• aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n• Element has no title attribute\n• Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"\n\nHelp: https://dequeuniversity.com/rules/axe/4.11/image-alt?application=axeAPI"
+    },
+    {
+      "id": "link-name",
+      "message": "issue on [/] - [WCAG 2.0 A, Success Criterion 2.4.4, Success Criterion 4.1.2 (serious severity)]:\nLinks must have discernible text.\n\nElement: <a test-id=\"nav-link\" href=\"https://github.com/PennyLaneAI/pennylane\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-800 transition-colors duration-200 hover:text-slate-500\">\n\nFix all of the following:\n• Element is in tab order and does not have accessible text\n\nFix any of the following:\n• Element does not have text that is visible to screen readers\n• aria-label attribute does not exist or is empty\n• aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n• Element has no title attribute\n\nHelp: https://dequeuniversity.com/rules/axe/4.11/link-name?application=axeAPI"
+    },
+    {
+      "id": "link-name",
+      "message": "issue on [/] - [WCAG 2.0 A, Success Criterion 2.4.4, Success Criterion 4.1.2 (serious severity)]:\nLinks must have discernible text.\n\nElement: <a test-id=\"nav-link\" href=\"https://www.linkedin.com/company/pennylaneai/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-800 transition-colors duration-200 hover:text-slate-500\">\n\nFix all of the following:\n• Element is in tab order and does not have accessible text\n\nFix any of the following:\n• Element does not have text that is visible to screen readers\n• aria-label attribute does not exist or is empty\n• aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n• Element has no title attribute\n\nHelp: https://dequeuniversity.com/rules/axe/4.11/link-name?application=axeAPI"
+    },
+    {
+      "id": "link-name",
+      "message": "issue on [/] - [WCAG 2.0 A, Success Criterion 2.4.4, Success Criterion 4.1.2 (serious severity)]:\nLinks must have discernible text.\n\nElement: <a test-id=\"nav-link\" href=\"https://twitter.com/PennyLaneAI\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-800 transition-colors duration-200 hover:text-slate-500\">\n\nFix all of the following:\n• Element is in tab order and does not have accessible text\n\nFix any of the following:\n• Element does not have text that is visible to screen readers\n• aria-label attribute does not exist or is empty\n• aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n• Element has no title attribute\n\nHelp: https://dequeuniversity.com/rules/axe/4.11/link-name?application=axeAPI"
+    }
+  ]
+}
